@@ -96,8 +96,8 @@ graduates.forEach(function (graduates){
 
 
 console.log(contactInfo);
-for (let i = 0: i < graduates.length; i++) {
-  contactInfo[i] = graduates[i].first_name + `` + graduates.email);
+for (let i = 0; i < graduates.length; i++) {
+  contactInfo[i] = graduates[i].first_name + `` + graduates.email;
 }
 
 /* Request 3: Find out how many universities have the string "Uni" included in their name. Create a new array called unisWithUni that contains them all. This will be an array of objects. Log the result. */
@@ -111,7 +111,7 @@ for (let i = 0; i < graduates.length; i++) {
   if (graduates[i].university.indexOf("Uni") >= 0) {
   unisWithUni.push(graduates[i].university);
   }
-})
+}
 console.log(unisWithUni);
 
 
@@ -176,4 +176,3 @@ console.log(populationTotal);
 Stretch: If you haven't already, convert your array method callbacks into arrow functions.
 
 */
-
